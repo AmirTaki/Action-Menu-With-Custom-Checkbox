@@ -104,6 +104,7 @@ body{
     user-select:none;
     cursor: pointer;
     color: #777;
+    transition: .5s;
 }
 .darkMode .menu li label span {
     color:  #aaa;
@@ -134,6 +135,7 @@ body{
   height: 15px;
   background: #ddd;  
   border-radius: 15px;
+  transition: .5s;
 }
 
 .darkMode .menu li label .action  i{
