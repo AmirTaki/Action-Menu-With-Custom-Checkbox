@@ -76,3 +76,11 @@ body{
     display: flex;
     justify-content: space-between;   
 }
+.menu li label span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select:none;
+    cursor: pointer;
+    color: #777;
+}
