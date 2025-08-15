@@ -61,6 +61,14 @@ body{
     color: #333;
     line-height: 1.2em;
 }
+
+.darkMode .profile .text {
+    color: #ddd;
+}
+.darkMode .profile span {
+    color: #aaa;
+}
+
 .profile  .text span {
     font-weight: 400;
     font-size: .85em;
