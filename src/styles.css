@@ -57,3 +57,10 @@ body{
     font-size: .85em;
     color: #555;
 }
+
+.menu {
+    position: relative;
+    margin-top: 20px;
+    padding-top:10px ;
+    border-top: 1px solid rgba(0, 0, 0, .05) ;
+}
