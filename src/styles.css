@@ -103,4 +103,17 @@ body{
   width: 30px;
   height: 15px;
   background: #ddd;  
+  border-radius: 15px;
+}
+
+.menu li label .action  i::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: 2.5px;
+    left: 2.5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
