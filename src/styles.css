@@ -84,3 +84,8 @@ body{
     cursor: pointer;
     color: #777;
 }
+
+.menu li label span ion-icon {
+    margin-right: 10px;
+    
+}
