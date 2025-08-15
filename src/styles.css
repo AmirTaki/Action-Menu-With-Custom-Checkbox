@@ -18,6 +18,10 @@ body{
     background-color: #222;
 }
 
+.darkMode .box {
+    background-color: #292929;
+}
+
 .box{
     position: relative;
     width: 300px;
@@ -25,6 +29,7 @@ body{
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 30px 30px rgba(0, 0, 0, .05);
+    transition: .5s;
 }
 
 .profile {
