@@ -116,4 +116,9 @@ body{
     left: 2.5px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+input:checked ~ i::before{
+    left : calc(100% - 12.5px)
 }
