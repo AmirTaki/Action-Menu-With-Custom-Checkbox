@@ -135,6 +135,10 @@ body{
   background: #ddd;  
   border-radius: 15px;
 }
+
+.darkMode .menu li label .action  i{
+    background-color: #666;
+}
 .menu li label .action input:checked ~ i{
     background: #2aa0ff;
 }
