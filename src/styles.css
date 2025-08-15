@@ -105,7 +105,9 @@ body{
     cursor: pointer;
     color: #777;
 }
-
+.darkMode .menu li label span {
+    color:  #aaa;
+}
 .menu li label span ion-icon {
     margin-right: 10px;
 
