@@ -95,7 +95,7 @@ body{
 
 }
 .menu li label .action input {
-    appearance: none ;   
+    /* appearance: none ;    */
 }
 
 .menu li label .action  i {
@@ -119,6 +119,6 @@ body{
     transition: .5s;
 }
 
-input:checked ~ i::before{
-    left : calc(100% - 12.5px)
+.menu li label .action input:checked ~ i::before{
+    left: calc(100% - 12.5px)
 }
