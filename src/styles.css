@@ -95,7 +95,7 @@ body{
 
 }
 .menu li label .action input {
-    /* appearance: none ;    */
+    /* appearance:none */
 }
 
 .menu li label .action  i {
@@ -105,7 +105,9 @@ body{
   background: #ddd;  
   border-radius: 15px;
 }
-
+.menu li label .action input:checked ~ i{
+    background: #2aa0ff;
+}
 .menu li label .action  i::before{
     content: '';
     position: absolute;
