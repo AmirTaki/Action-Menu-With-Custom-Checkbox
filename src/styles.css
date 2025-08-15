@@ -60,7 +60,9 @@ body{
     font-weight: 500;
     color: #333;
     line-height: 1.2em;
+    transition: .5s;
 }
+
 
 .darkMode .profile .text {
     color: #ddd;
