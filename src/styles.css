@@ -121,6 +121,6 @@ body{
     transition: .5s;
 }
 
-.menu li label .action input:checked ~ i::before{
+.menu li label .action:onlick ~ i::before{
     left: calc(100% - 12.5px)
 }
