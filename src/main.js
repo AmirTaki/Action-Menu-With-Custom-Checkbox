@@ -9,10 +9,14 @@
 
 
 let body = document.querySelector('body')
-let darkMode = document.getElementById("darkMode")
+let dark = document.getElementById("darkMode")
 
 
-const
-darkMode.addEventListener("click", () => {
+const checkMode = () => {
+    if (dark.checked == true){
+        body.classList.add("darkMode")
+    }
+}
+dark.addEventListener("click", () => {
      checkMode ()
 })
