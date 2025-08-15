@@ -13,3 +13,12 @@ body{
     background: #f0f0f0 ;
     transition: .5s;
 }
+
+.box{
+    position: relative;
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+}
