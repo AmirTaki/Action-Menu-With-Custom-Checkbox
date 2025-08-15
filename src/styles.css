@@ -95,7 +95,14 @@ body{
 
 }
 .menu li label .action input {
-    /* appearance:none */
+    position: absolute;
+    top:2px;
+    z-index: 2;
+    left:-1px;
+    width: 30px;
+    opacity: 0;
+    cursor: pointer;
+    
 }
 
 .menu li label .action  i {
@@ -121,6 +128,6 @@ body{
     transition: .5s;
 }
 
-.menu li label .action:onlick ~ i::before{
+.menu li label .action input:checked ~ i::before{
     left: calc(100% - 12.5px)
 }
