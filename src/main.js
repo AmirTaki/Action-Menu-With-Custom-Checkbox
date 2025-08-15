@@ -9,3 +9,4 @@
 
 
 let body = document.querySelector('body')
+let darkMode = document.getElementById("darkMode")
